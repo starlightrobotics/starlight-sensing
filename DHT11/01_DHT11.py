@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# Starlight Robotics
+# Sensing Series
+# Connect the DHT11 Sensor to the Raspberry Pi: The DHT11 sensor typically has three or four pins, depending on the model. Connect the VCC to a 3.3V pin, GND to a ground pin, and the data pin to a GPIO pin on the Raspberry Pi (e.g., GPIO4).
+# The script reads from the PIN 4
+#
+# To install the library run:
+# pip3 install Adafruit_DHT
+# To run, type:
+# python3 01_DHT11.py
 import Adafruit_DHT
 import time
 
