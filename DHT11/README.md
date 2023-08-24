@@ -36,8 +36,8 @@ Run the script using:
 ```
 The script will continuously print the temperature and humidity readings to the console every 3 seconds.
 
-License
-This project is for educational purposes. Feel free to use and modify the code as needed.
+**License**
+This project is open-source and for educational purposes. Feel free to use and modify the code as needed.
 
-Contact
+**Contact**
 Please feel free to contact Starlight Robotics if you have any questions or need further assistance.
