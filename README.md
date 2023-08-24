@@ -1,2 +1,2 @@
-# starlight-sensing
+# Starlight Sensing series
 Series of scripts dedicated to sensors
