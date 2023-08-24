@@ -2,18 +2,16 @@
 Scripts to read temperature and humidity data from a DHT11 sensor using both a Raspberry Pi and Arduino.
 
 ## Raspberry Pi with GPIO pins
-DHT11 temperature and humidity sensor
-Python 3
-Adafruit DHT library
-Setup
-Hardware Connection
-Connect the DHT11 sensor to the Raspberry Pi as follows:
+* Raspberry Pi with GPIO pins
+* DHT11 temperature and humidity sensor
+* Python 3
 
+Connect the DHT11 sensor to the Raspberry Pi as follows:
 * VCC to 3.3V pin
 * GND to a ground pin
 * Data pin to a GPIO pin (e.g., GPIO4)
 
-#### For Arduino:
+## Arduino:
 * Arduino board (e.g., Arduino Uno)
 * DHT11 temperature and humidity sensor
 * Arduino IDE
