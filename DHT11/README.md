@@ -11,12 +11,6 @@ Connect the DHT11 sensor to the Raspberry Pi as follows:
 * GND to a ground pin
 * Data pin to a GPIO pin (e.g., GPIO4)
 
-## Arduino:
-* Arduino board (e.g., Arduino Uno)
-* DHT11 temperature and humidity sensor
-* Arduino IDE
-* DHT sensor library by Adafruit
-
 #### Install the Adafruit DHT Library
 You'll need to install the Adafruit DHT library to interface with the DHT11 sensor. Run the following command:
 
@@ -40,6 +34,13 @@ Run the script using:
 The script will continuously print the temperature and humidity readings to the console every 3 seconds.
 
 ## Arduino
+* Arduino board (e.g., Arduino Uno)
+* DHT11 temperature and humidity sensor
+* Arduino IDE
+* DHT sensor library by Adafruit
+
+
+#### Uploading the code
 * Open the Arduino sketch in the Arduino IDE (available on the official Arduino website).
 * Select the appropriate board and port in the top menu.
 * Click the upload button to send the code to your Arduino.
