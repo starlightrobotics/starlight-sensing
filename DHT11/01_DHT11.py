@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # Starlight Robotics
 # Sensing Series
-# Connect the DHT11 Sensor to the Raspberry Pi: The DHT11 sensor typically has three or four pins, depending on the model. Connect the VCC to a 3.3V pin, GND to a ground pin, and the data pin to a GPIO pin on the Raspberry Pi (e.g., GPIO4).
-# The script reads from the PIN 4
+# Welcome to the wonderful world of temperature and humidity sensing!
+# This script allows you to connect with the DHT11 sensor using your Raspberry Pi.
+# Simply connect the VCC to a 3.3V pin, GND to a ground pin, and the data pin to GPIO4 on the Raspberry Pi.
+# Feel the rhythm of nature by reading the temperature and humidity around you.
 #
 # To install the library run:
 # pip3 install Adafruit_DHT
@@ -11,22 +13,22 @@
 import Adafruit_DHT
 import time
 
-# Define the sensor type and the GPIO pin to which it's connected
+# Define the sensor type and the GPIO pin for our exciting adventure
 DHT_SENSOR = Adafruit_DHT.DHT11
-DHT_PIN = 4 # Change this to the GPIO pin you're using
+DHT_PIN = 4 # Feel free to change this to the GPIO pin you're using
 
 # Function to read from the DHT11 sensor
 def read_dht11():
-    # Read the humidity and temperature from the sensor
+    # Gently ask the sensor for the current humidity and temperature
     humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, DHT_PIN)
     
-    # Check if readings are valid and print them
+    # Share the temperature and humidity with the world!
     if humidity is not None and temperature is not None:
         print("Temp={0:0.1f}C  Humidity={1:0.1f}%".format(temperature, humidity))
     else:
-        print("Failed to retrieve data from the sensor")
+        print("The sensor is shy right now. Let's try again soon.")
 
-# Main loop to continuously read data from the sensor
+# Main loop to continuously engage with the sensor
 while True:
     read_dht11()
-    time.sleep(3) # Pause for 3 seconds between readings
+    time.sleep(3) # Let's take a brief 3-second pause to appreciate nature's beauty
