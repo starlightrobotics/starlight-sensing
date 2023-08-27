@@ -9,3 +9,6 @@ So grab your Raspberry Pi, Arduino, or both, and let's make something wonderful 
 
 ## DHT11 - Temperature and Humidity Sensor 🌡️💧
 Dive into the delightful world of temperature and humidity sensing with the DHT11 sensor. We've prepared examples for both Raspberry Pi and Arduino to make your experience smooth and joyful.
+
+## PIR - Motion Detection Sensor 🕵️‍♀️
+Walk into the fascinating domain of motion detection with PIR sensors. As always, we have examples tailored for Raspberry Pi and Arduino to ease you into this thrilling experience.
