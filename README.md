@@ -12,3 +12,6 @@ Dive into the delightful world of temperature and humidity sensing with the DHT1
 
 ## PIR - Motion Detection Sensor 🕵️‍♀️
 Walk into the fascinating domain of motion detection with PIR sensors. As always, we have examples tailored for Raspberry Pi and Arduino to ease you into this thrilling experience.
+
+## MAX30102 - Heart Rate and Pulse Oximetry Sensor ❤️🌬️
+Embark on an enlightening expedition into the realm of heartbeats and oxygen saturation with the MAX30102 sensor. Let every pulse be a testament to life's rhythm as you venture deeper into understanding the human body. We've crafted hands-on examples for both Raspberry Pi and Arduino, ensuring you have a heartwarming and illuminating experience.
